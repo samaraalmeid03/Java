@@ -16,5 +16,6 @@ public class Main {
             System.out.print("Deseja repetir (s/n)? ");
             escolha = sc.next().charAt(0);
         } while (escolha == 's'); //Executa o bloco acima ao menos uma vez e enquanto a condição for verdadeira repete.
+        sc.close();
     }
 }
